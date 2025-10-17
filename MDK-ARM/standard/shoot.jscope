@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="Cortex-M3" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ScriptFile Name="C:\Users\Lenovo\Desktop\25赛季\25赛季全向代码\全向24.12.17\MDK-ARM\standard\shoot.jscope\unspecified" />
+            <ElfFile Name="C:\Users\Lenovo\Desktop\25赛季\25赛季全向代码\全向24.12.17\MDK-ARM\standard\standard.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="200000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="speed" Address="0x20000FE8" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="-7955" YMaxSampled="7018" YAvgSampled="-6174" Offset="4" ShowInGraph="1" ACCoupling="0" YOffset="540" IsAutoConfig="0" YResolution="5000" MaxValue="10000" File="..\Task\shoot_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed_set" Address="0x20000FEC" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="191" GraphColorBlue="255" YMinSampled="-7800" YMaxSampled="7000" YAvgSampled="-6179" Offset="8" ShowInGraph="1" ACCoupling="0" YOffset="510" IsAutoConfig="0" YResolution="5000" MaxValue="10000" File="..\Task\shoot_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="speed" Address="0x20001040" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="100" GraphColorBlue="0" YMinSampled="-38" YMaxSampled="7912" YAvgSampled="7172" Offset="12" ShowInGraph="1" ACCoupling="0" YOffset="250" IsAutoConfig="0" YResolution="5000" MaxValue="10000" File="..\Task\shoot_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
